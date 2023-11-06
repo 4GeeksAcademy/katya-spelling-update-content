@@ -87,7 +87,7 @@ Los espacios son ignorados:
 
 ## Estructura de página
 
-Todas las páginas deben empezar con la declaración del  `<!DOCTYPE html>` seguido por los tags `<html>`, luego `<head>` y por último `<body>`. Estos tags **deben** contener otros tags dentro de ellos (etiquetas anidadas), y eso es así porque separarán la página en dos pedazos principales: el HEAD (la cabeza) y el BODY (el cuerpo):
+Todas las páginas deben empezar con la declaración del  `<!DOCTYPE html>` seguido, por los tags `<html>`, luego `<head>` y por último `<body>`. Estos tags **deben** contener otros tags dentro de ellos (etiquetas anidadas), y eso es así porque separarán la página en dos pedazos principales: el HEAD (la cabeza) y el BODY (el cuerpo):
 
 
 ```html
@@ -105,7 +105,7 @@ Todas las páginas deben empezar con la declaración del  `<!DOCTYPE html>` segu
 
 Vamos a simular el pensamiento de un navegador: Imaginemos que una persona en su navegador (lado del cliente) está solicitando visualizar la página web: “4Geeks.com”
 
-+ El servidor abrirá un archivo HTML por defecto en el servidor. Probablemente sea index.html.
++ El servidor abrirá un archivo HTML por defecto en el servidor. Probablemente, sea index.html.
 + Luego, leerá el contenido y lo interpretará como un HTML (porque la extensión del archivo es index.html).
 + La persona no verá el texto que contiene el archivo, en cambio verá una interpretación visual de ese texto.
 
